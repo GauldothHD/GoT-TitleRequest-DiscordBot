@@ -1,0 +1,39 @@
+    @commands.command()
+    async def gmnext(self, ctx):
+        """PO moves GM line to the next person"""
+        await ctx.send(self.gmMessage)
+
+    @commands.command()
+    async def gmclear(self, ctx):
+        """PO moves GM line to the next person"""
+        await ctx.send(self.gmMessage)
+
+    @commands.command()
+    async def cbpls(self, ctx):
+        """Request for CB buff"""
+        await ctx.send(self.gmMessage)
+
+    @commands.command()
+    async def cbdone(self, ctx):
+        """Removes you from CB line"""
+        await ctx.send(self.gmMessage)
+
+    @commands.command()
+    async def cbnext(self, ctx):
+        """PO moves CB line to the next person"""
+        await ctx.send(self.gmMessage)
+    
+    @commands.command()
+    async def mospls(self, ctx):
+        """Request for MOS buff"""
+        await ctx.send(self.gmMessage)
+    
+    @commands.command()
+    async def mowpls(self, ctx):
+        """Request for MOW buff"""
+        await ctx.send(self.gmMessage)
+    
+    @commands.command()
+    async def help(self, ctx):
+        """List of all available commands"""
+        await ctx.send(self.gmMessage)
